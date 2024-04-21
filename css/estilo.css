@@ -39,7 +39,7 @@ h1,h2,h3,h4,h5{
     font-size: 1.9em;
     color: #de423a;
     padding: 10px;
-    font-family: 'Sacramento', cursive;
+	font-family: 'Pokemon Solid', sans-serif;
         
 }
 .main-header__contactInfo__phone{
@@ -110,7 +110,7 @@ h1,h2,h3,h4,h5{
     top: 75px;
     left: 0;
     width: 100%;
-    background: rgba(0,0,0,.85);
+    background: rgba(0, 0, 0, 0.85);
     padding:0px;
     margin:0px;
     z-index: 2000px;
@@ -131,10 +131,10 @@ h1,h2,h3,h4,h5{
     
 }
 .menu__link:hover{
-     background-color: #DE423A;
+     background-color: #b1b1b1;
 }
 .menu__link--select{
-    background-color: #DE423A;
+    background-color: #b1b1b1;
     
 }
 .mostrar{
@@ -156,7 +156,7 @@ h1,h2,h3,h4,h5{
     top: 0;
 }
 .banner__img{
-    width: 100%;
+    width: 110%;
     height: 400px;
     object-fit: cover
 }
@@ -175,8 +175,31 @@ h1,h2,h3,h4,h5{
 }
 
 /*----------------Estilos Principales------------------*/
+
+/*----------------Editados por mi------------------*/
+
+.letra1 {
+	font-family: "Jersey 15", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+  }
+  
+.poke1{
+	font-size: 1.9em;
+    color: #de423a;
+    padding: 10px;
+	font-family: 'Pokemon Solid', sans-serif;
+}
+
+
+
+
+
+
+
+/*----------------Estilos Principales------------------*/
 .group--color .container{
-	background-color: #DE423A;
+	background-color: #92dafc;
 	padding: 10px;
 	text-align: center;
 	
@@ -199,14 +222,14 @@ h1,h2,h3,h4,h5{
 	text-align: center;
 	text-decoration: none;
 	width: 120px;
-	background: #DE423A;
+	background: #92dafc;
 	color: #fff;
 	padding:10px;
 	margin: 10px auto;
 	
 }
 .group__title{
-	font-family:'Sacramento',cursive;
+	font-family: "Jersey 15", sans-serif;
 	text-align: center;
 	font-weight: bold;
 	font-size: 1.8em;
