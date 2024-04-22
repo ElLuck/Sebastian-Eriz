@@ -171,6 +171,8 @@ h1,h2,h3,h4,h5{
     transform: translateX(-50%) translateY(-50%);
     font-size: 1.5em;
     font-weight:bold;
+
+	font-family: "Jersey 15", sans-serif;
     
 }
 
@@ -191,8 +193,15 @@ h1,h2,h3,h4,h5{
 	font-family: 'Pokemon Solid', sans-serif;
 }
 
+.c-item{
+ height: 480px;
+}
 
-
+.c-img{
+ height: 100%;
+ object-fit: cover;
+ filter: brightness(0.6);
+}
 
 
 
