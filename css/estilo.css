@@ -203,6 +203,37 @@ h1,h2,h3,h4,h5{
  filter: brightness(0.6);
 }
 
+.container {
+    display: flex;
+}
+
+.formulario {
+    flex: 1; /* El formulario ocupa todo el espacio disponible */
+    margin-right: 20px; /* Espacio entre el formulario y el mapa */
+}
+
+.mapa {
+    flex: 1; /* El mapa ocupa todo el espacio disponible */
+	margin-left: 10px;
+}
+
+/* Estilo del contenedor del slider */
+.slider-container {
+	width: 90%; /* Ajusta el ancho del contenedor según tus necesidades */
+	max-width: 800px; /* Máximo ancho del contenedor */
+	height: 500px; /* Ajusta la altura del contenedor según tus necesidades */
+	overflow: hidden; /* Oculta las partes de las imágenes que exceden el contenedor */
+	margin: 0 auto; /* Centra el contenedor horizontalmente */
+	margin-bottom: 10px;
+  }
+  
+  /* Estilo de las imágenes dentro del slider */
+  .slider-container img {
+	width: 100%; /* Las imágenes ocuparán todo el ancho del contenedor */
+	height: auto; /* Las imágenes mantendrán su proporción original */
+
+  }
+  
 
 
 
